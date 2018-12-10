@@ -1,0 +1,19 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  color: #fff;
+}
+
+.infoholder {
+  text-align: center;
+  font-weight: bold;
+}
+.infoholder h1 {
+  font-size: 60px;
+}
+.infoholder h2 {
+  font-size: 40px;
+}
+
+.section-heading {
+  text-align: center;
+}
