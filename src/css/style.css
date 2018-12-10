@@ -17,3 +17,12 @@ body {
 .section-heading {
   text-align: center;
 }
+
+
+.section-bg {
+  background: url(https://negativespace.co/wp-content/uploads/2018/06/negative-space-businessman-mobile-phone-escalator-burst-thumb-1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
