@@ -11,20 +11,35 @@
   <body>
 
     <div id="fullpage">
-    	<div class="section section-bg">
+    	<div class="section section-bg" id="intro">
         <div class="infoholder">
           <h1>Matthias Wurm</h1>
-          <h2>Freelance Software Developer, Webdesigner, Entrepeneur</h2>
-          <a href="#" class="button btn-red">View Portfolio</a>
-          <a href="#" class="button btn-blue">Contact me</a>
+          <h2>Software Developer, Webdesigner, Entrepeneur</h2>
+          <a href="#portfolio" class="button btn-red">View Portfolio</a>
+          <a href="#contact" class="button btn-black">Contact me</a>
         </div>
       </div>
-    	<div class="section">
+    	<div class="section" data-anchor="portfolio">
         <div class="portfolio">
-          <h1>Portfolio</h1>
+            <div class="slide">
+              <img src="./src/img/portfolio-1.png" class="img-center">
+              <h4>Plan B Games</h4>
+              <p>Lorem ipsum dolor sit amet consecteur dolom ipsum.</p>
+            </div>
+            <div class="slide">
+              <img src="./src/img/portfolio-2.png" class="img-center">
+              <h4>Pandaware Apparel</h4>
+              <p>Lorem ipsum dolor sit amet consecteur dolom ipsum.</p>
+            </div>
+            <div class="slide"> Slide 3 </div>
+            <div class="slide"> Slide 4 </div>
         </div>
-     
       </div>
+    <div class="section" data-anchor="contact">
+      <div class="contact">
+        <h1>Contact</h1>
+        </div>
+    </div>
     </div>
 
     <script src="./src/js/main.js"></script>
