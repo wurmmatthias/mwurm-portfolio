@@ -48,7 +48,6 @@ body {
   text-align: center;
 }
 
-
 .img-center {
   display: block;
   margin-left: auto;
@@ -57,7 +56,7 @@ body {
 }
 
 .section-bg {
-  background: url(../img/background.jpg) no-repeat center center fixed; 
+  background: url(../img/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,6 +76,13 @@ body {
 
 .btn-green {background-color: #4CAF50;} /* Green */
 .btn-blue {background-color: #008CBA;} /* Blue */
-.btn-red {background-color: #f44336;} /* Red */ 
-.btn-gray {background-color: #e7e7e7; color: black;} /* Gray */ 
+.btn-red {background-color: #f44336;} /* Red */
+.btn-gray {background-color: #e7e7e7; color: black;} /* Gray */
 .btn-black {background-color: #555555;} /* Black */
+
+
+
+.social a {
+  color: #FFF;
+  padding: 15px;
+}
