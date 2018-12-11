@@ -9,11 +9,11 @@ body {
 }
 .infoholder h1 {
   font-size: 60px;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 .infoholder h2 {
   font-size: 40px;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 
 .portfolio {
@@ -36,6 +36,7 @@ body {
 .contact {
   text-align: center;
   font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 .contact h1 {
   font-size: 60px;
@@ -87,8 +88,6 @@ body {
 .btn-red {background-color: #f44336;} /* Red */
 .btn-gray {background-color: #e7e7e7; color: black;} /* Gray */
 .btn-black {background-color: #555555;} /* Black */
-
-
 
 .social a {
   color: #FFF;
